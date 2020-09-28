@@ -1,0 +1,16 @@
+def edad_media():
+	edad_mayor=3
+	edad_menor=7
+	suma_edades=0
+	print"Introduce las edades: "
+	for cont in range(1,11):
+		print "Edad ", cont, ": "
+		edad=input()
+		suma_edades=suma_edades+edad
+	media=(suma_edades + edad)/cont
+	diferencia_edades=edad_mayor-edad_menor
+	print "La suma de las edades de los alumnos es ", suma_edades
+	print "La edad del mayor es ", edad_mayor
+	print "La edad del menor es ", edad_menor
+	print "La diferencia de edades es ", diferencia_edades
+	print "La media de edad es ", media
