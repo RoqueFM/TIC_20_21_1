@@ -1,0 +1,6 @@
+def fecha():
+		dia=input("Insetrte número de día: ")
+		mes=input("Inserte número de mes: ")
+		anno=input("Inserte año: ")
+		meses=["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Agosto", "Octubre", "Noviembre", "Diciembre"]
+		print dia, "de", meses[(mes-1)], "del", anno
